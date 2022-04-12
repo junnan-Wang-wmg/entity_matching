@@ -1,0 +1,4 @@
+{"id": 4, "data": "The product is awesome.", "label": ["POSITIVE"]}
+{"id": 5, "data": "I hate this product.", "label": ["NEGATIVE"]}
+{"id": 6, "data": "Never buy this product.", "label": ["NEGATIVE"]}
+{"id": 7, "data": "I am using this product since last year.", "label": ["Neutral"]}
