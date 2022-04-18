@@ -47,3 +47,5 @@ if __name__=='__main__':
 # dataNumber = 400
 # extractCampaignName(file, dataNumber)
 
+# current run method:
+# python .\campaignNameExtracter.py --file_path="matching_data.csv" --start=0 --end=400 --out_path="campaignName400"
