@@ -1,6 +1,9 @@
 """
 This file is to create the eval function to obtain the roc curve
 for the ground truth labels obtained from combineData.py.
+
+The goal here is to find the best weight percentage for the eval function.
+
 """
 import combineData
 import numpy as np
@@ -90,7 +93,7 @@ def rocAndPrcCurve(manualStartIndex, manualEndIndex,
         plt.legend(loc='lower right')
 
     file_save = "roc_curve.png"
-    plt.savefig(file_save, format='png')
+    plt.savefig("./temp/{}".format(file_save), format='png')
     plt.show()
 
 
@@ -114,7 +117,7 @@ def rocAndPrcCurve(manualStartIndex, manualEndIndex,
         plt.legend(loc='lower left')
 
     file_save1 = "prc_curve.png"
-    plt.savefig(file_save1, format='png')
+    plt.savefig("./temp/{}".format(file_save1), format='png')
     plt.show()
 
     print("The selected weight percentages are: {}.".format(percentEval))
