@@ -32,14 +32,14 @@ def threshold(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate
 
     allScores = combineData.importScore(fuzzyScoreFile)
     score = []
-    tableTitle = {"index": [], "entry": [], "combineScore": []}
+    tableTitle = {"index": [], "entry": [], "combineScore": [], "trueLabel":[]}
     table = pd.DataFrame(tableTitle)
     for i in index:
         row = allScores[i].replace("\n", "").split(",")
         artistScore, trackScore = float(row[1]), float(row[2])
         combineScore = eVal.evalFunction(artistScore, trackScore, percentEval)
         pandaRow = pd.DataFrame({"index": [i], "entry": [entries[i]],
-                                 "combineScore": [combineScore]})
+                                 "combineScore": [combineScore], "trueLabel": [true[i]]})
         table = table.append(pandaRow)
 
         score.append(combineScore)
@@ -59,16 +59,34 @@ def threshold(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate
 
     if thr1 > thr2:
         print("The chosen thresholds are not reasonable with thr1={} and thr2={}.".format(thr1, thr2))
+    else:
+        print("The two thresholds are: thr1={} and thr2={}.".format(thr1, thr2))
 
     table1 = pd.DataFrame(tableTitle)
     table2 = pd.DataFrame(tableTitle)
     table3 = pd.DataFrame(tableTitle)
+
+    count1, count2, count3 = 0, 0, 0
+
+    table4 = pd.DataFrame(tableTitle)
+    table5 = pd.DataFrame(tableTitle)
+
     for i in range(len(table)):
         score = table.iloc[i][2]
         if score <= thr1:
             table1 = table1.append(table.iloc[i])
+            trueLabel = table.iloc[i][3]
+            if trueLabel == 0:
+                count1 += 1
+            else:
+                table4 = table4.append(table.iloc[i])  # summarize incorrect labels in a separate table
         elif score >= thr2:
             table3 = table3.append(table.iloc[i])
+            trueLabel = table.iloc[i][3]
+            if trueLabel == 1:
+                count3 += 1
+            else:
+                table5 = table5.append(table.iloc[i])  # summarize incorrect labels in a separate table
         else:
             table2 = table2.append(table.iloc[i])
 
@@ -80,9 +98,18 @@ def threshold(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate
     percentLabeled = (numLabel0 + numLabel1)/(numLabel0 + numLabel1 + numUncertain)
     print("The % of labeled items are {}.".format(percentLabeled))
 
+    acc1 = count1/len(table1)
+    acc3 = count3/len(table3)
+
+    print("The accuracy for label as 0 is {} ({}/{})\n "
+          "for label as 1 is {} ({}/{}).".format(acc1, count1, len(table1), acc3, count3, len(table3)))
+
+
     outputPandaTable(table1, "label0.csv")
     outputPandaTable(table3, "label1.csv")
     outputPandaTable(table2, "labelUncertain.csv")
+    outputPandaTable(table4, "label0_incorrect.csv")
+    outputPandaTable(table5, "label1_incorrect.csv")
 
     return
 
@@ -113,5 +140,5 @@ if __name__ == '__main__':
     threshold(args.fuzzyScoreFile, args.manualLabelFile, args.percentForArtistScore, args.recallThr, args.precisionThr)
 
 # current calling command line:
-# python .\evalFunctionForRocCurve.py --startIndex=0 --endIndex=1000 --fuzzyScoreFile="fuzzyScores.txt"
-# --manualLabelFile="1000annotate.csv" -p 0.5 --combined/--no-combined
+# python .\evalFunctionForRocCurve.py --fuzzyScoreFile="fuzzyScores.txt" --manualLabelFile="1000annotate.csv"
+#            -p 0.5 -rt 0.9 -pt 0.9
