@@ -237,7 +237,7 @@ id,data,label
 55048,<entry1>  WMTH_SMOTW แปลเพลงฮิต_vdo view_Tiktok  <entry2> <artistName>  Mowg  <trackName>  Void,0
 55049,<entry1>  WMTH_SMOTW แปลเพลงฮิต_vdo view_Tiktok  <entry2> <artistName>  Miko  <trackName>  Knor,0
 55050,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  Benson Boone  <trackName>  Ghost Town,1
-55051,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  EBEN  <trackName>  Ghost Town,1
+55051,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  EBEN  <trackName>  Ghost Town,0
 55052,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  Benson  <trackName>  Step To Me,0
 55053,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  One  <trackName>  Becoming,0
 55054,<entry1>  Benson Boone - Ghost Town - SW  <entry2> <artistName>  Owen  <trackName>  Lost,0
@@ -808,7 +808,7 @@ id,data,label
 55619,<entry1>  Ilta - Taivas maan päällä - teaser - IGS  <entry2> <artistName>  Jigs  <trackName>  Maria,0
 55620,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Ilta  <trackName>  Oi jouluyö,0
 55621,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Ilta  <trackName>  River Lea,0
-55622,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Ilta  <trackName>  Jouluksi kotiin,1
+55622,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Ilta  <trackName>  Jouluksi kotiin,0
 55623,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Ilta  <trackName>  Muurit,0
 55624,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  Luke  <trackName>  Libre,0
 55625,<entry1>  LIVE: Ilta - Joulukiertue (Hyvinkää)  <entry2> <artistName>  July  <trackName>  I Like It,0
@@ -830,7 +830,7 @@ id,data,label
 55641,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Ilta  <trackName>  Oi jouluyö,0
 55642,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Owen  <trackName>  Love,0
 55643,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Ilta  <trackName>  River Lea,0
-55644,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Ilta  <trackName>  Jouluksi kotiin,1
+55644,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Ilta  <trackName>  Jouluksi kotiin,0
 55645,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Joe  <trackName>  Love Centric,0
 55646,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Joe  <trackName>  Lean Into It,0
 55647,<entry1>  LIVE: Ilta - Joulukiertue (Joensuu)  <entry2> <artistName>  Joe  <trackName>  For Love,0

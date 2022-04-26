@@ -50,17 +50,23 @@ def threshold(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate
     thr1, thr2 = 0, 1
     for i in range(len(thresholds)):
         if recall[i] < recallThr:
-            thr1 = thresholds[i]
+            thr1 = thresholds[i-1]
             break
     for i in range(len(thresholds)):
         if precision[i] > precisionThr:
-            thr2 = thresholds[i]
+            thr2 = thresholds[i-1]
             break
 
+    # print("The threshold setting is r={} for thr1, p={} for thr2".format(recallThr, precisionThr))
     if thr1 > thr2:
         print("The chosen thresholds are not reasonable with thr1={} and thr2={}.".format(thr1, thr2))
     else:
+
         print("The two thresholds are: thr1={} and thr2={}.".format(thr1, thr2))
+
+    # directly set the thresholds:
+
+
 
     table1 = pd.DataFrame(tableTitle)
     table2 = pd.DataFrame(tableTitle)
