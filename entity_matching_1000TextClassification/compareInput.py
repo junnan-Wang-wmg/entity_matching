@@ -145,6 +145,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
     threshold(args.fuzzyScoreFile, args.manualLabelFile, args.percentForArtistScore, args.recallThr, args.precisionThr)
 
-# current calling command line:
-# python .\evalFunctionForRocCurve.py --fuzzyScoreFile="fuzzyScores.txt" --manualLabelFile="1000annotate.csv"
-#            -p 0.5 -rt 0.9 -pt 0.9

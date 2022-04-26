@@ -12,13 +12,13 @@
   <ol>
     <li><a href="#problem">Problem description</a></li> 
     <li><a href="#data">Data description</a></li>
-    <li><a href="#doccano">Manual Annotation with Doccano</a></li>
     <li><a href="#algorithm">Algorithm</a>
       <ul>
+        <li><a href="#doccano">Manual Annotation with Doccano</a></li>
         <li><a href="#fuzzyWuzzy">Fuzzy Matching</a></li>
         <li><a href="#evalModel">Evaluation Model</a></li>
         <li><a href="#auc">Roc and Prc analysis</a></li>
-        <li><a href="#check">Check original data</a></li>
+        <li><a href="#check">Threshold analysis with original data</a></li>
       </ul>
     </li>
   </ol>
@@ -34,6 +34,12 @@ artist+track name in the database.
 This dataset is Wavo dataset. The dataset contains input as entity of the campaign names and the goal 
 is to match the entity of the input campaign names to the database with artist names and track names. 
 
+<h2 id="algorithm">Algorithm</h2>
+
+In order to analyze the Wavo data better, fuzzy matching method is applied so that the original dataset can be trimmed 
+to automatically label part of the data. Then a machine learning model would be applied to further label the remainer 
+data.
+
 <h2 id="doccano">Manual Annotation with Doccano</h2>
 
 The first step is to apply Doccano to manually annotate the data. The input for Doccano is the combination of the 
@@ -41,11 +47,20 @@ campaign name and the artist+track name. The input is converted from the origina
 would be matched(1) and unmatched(0). The final output is an CSV file containing an id (given by Doccano), data input 
 (combination of campaign name and artist+track name), and the label (0 or 1).
 
-<h2 id="algorithm">Algorithm</h2>
+Process:
+1. Coding: (open command prompt in "app" directory)
+```angular2html
+    python dataConverter.py -t "../data/extract.txt"  -s "../data/matching_data.csv" --startIndex 0 --endIndex 1000
+```
+The output file is the extracted data containing the campaign name, artist name, and track name in each row. 
+The output file is saved in "data" directory.
 
-In order to analyze the Wavo data better, fuzzy matching method is applied so that the original dataset can be trimmed 
-to automatically label part of the data. Then a machine learning model would be applied to further label the remainer 
-data.
+2. Manual annotation:
+
+    The next step is to import the data into Doccano and perform manual annotation. The manual annotation result is a 
+csv file containing combined entry (campaign, artist, and track names) and the annotated label (1 for matched, 
+3. 0 for unmatched)
+
 
 <h2 id="fuzzyWuzzy">Fuzzy Matching</h2>
 
@@ -74,9 +89,9 @@ In addition, two thresholds are set in here: precision = 0.9 and recall = 0.9. T
 the data into 3 segments: label=0, label=1, and undetermined. The unmatched data (either label=0 or label=1) are 
 extracted into separate files.
 
-<h2 id="check">Threshold Analysis</h2>
+<h2 id="check">Threshold Analysis with Original Data</h2>
 
-The final step is to check with the original data.
+The final step is to check with the original data with different thresholds.
 
 From the last step, the unmatched data input will be evaluated to determine the reasons for the inconsistency between
 the manual label and the fuzzy matching label. The possible reasons could be the incorrect manual annotation, or some 
