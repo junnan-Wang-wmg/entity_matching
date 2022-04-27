@@ -5,18 +5,28 @@ for the ground truth labels obtained from combineData.py.
 The goal here is to find the best weight percentage for the eval function.
 
 """
-import combineData
+# import combineData
 import numpy as np
-# from sklearn import metrics
 from sklearn.metrics import roc_curve, roc_auc_score, precision_recall_curve, average_precision_score
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import argparse
+import pandas as pd
+import re
 
 mpl.rcParams['figure.figsize'] = (12, 10)
 colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
 
+# import a txt file. Here the goal is to import that fuzzyScore file
+def importScore(filename):
+    f = open(filename, "r")
+    lines = f.readlines()
+    lines = lines[1:]  # skip the title line
+    return lines
+
+
+# import a txt file. Here the goal is to import that fuzzyScore file
 def evalFunction(artistScore, trackScore, percentageForArtistScore=0.5):
     artistScoreRatio = artistScore / 100
     trackScoreRatio = trackScore / 100
@@ -24,10 +34,16 @@ def evalFunction(artistScore, trackScore, percentageForArtistScore=0.5):
     return score
 
 
-# plot the roc:
+# plot the roc
 def plot_roc(name, fp, tp, **kwargs):
-    # fp, tp, _ = sklearn.metrics.roc_curve(labels, prediction)
+    """
 
+    :param name: str, name of the plot
+    :param fp:  list of fpr values
+    :param tp:  list of tpr values
+    :param kwargs:  styling factors like color
+    :return:  plot of the roc curve
+    """
     font = {'weight': 'bold',
             'size': 22}
     plt.plot(100 * fp, 100 * tp, label=name, linewidth=2, **kwargs)
@@ -43,7 +59,14 @@ def plot_roc(name, fp, tp, **kwargs):
 
 
 def plot_prc(name, precision, recall, **kwargs):
-    # precision, recall, _ = sklearn.metrics.precision_recall_curve(labels, prediction)
+    """
+
+    :param name: str, name of the plot
+    :param precision: list of precision values
+    :param recall: list of recall values
+    :param kwargs: styling factors like color
+    :return: plot of the prc curve
+    """
 
     plt.plot(precision, recall, label=name, linewidth=2, **kwargs)
     font = {'weight': 'bold',
@@ -60,21 +83,40 @@ def plot_prc(name, precision, recall, **kwargs):
 
 
 
-def rocAndPrcCurve(manualStartIndex, manualEndIndex,
-                   fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate.csv",
-                   percentEval=None, isCombined=True):
+def rocAndPrcCurve(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000annotate.csv",
+                   percentEval=None, saveToFile="temp"):
+    """
 
-    groundTruthLabels = combineData.combineData(manualStartIndex, manualEndIndex,
-                                                fuzzyScoreFile, manualAnnotateFile, isCombined)
+    :param fuzzyScoreFile: the txt file containing all the fuzzy score obtained by using fuzzyWuzzy.py
+    :param manualAnnotateFile: the csv file containing all the annotated data. The file is obtained after finishing
+                                the doccano annotation
+    :param percentEval: a list of float numbers between (0,1), weight percentage for artist name to insert into the
+                    evaluation function. The weight percentage for track name is (1-percentEval) for each float in this
+                    list.
+    :param saveToFile:  the directory path (not the file path) to store the result files.
+                            The options are: "temp", "data/dirname", etc.
+    :return: two png files:
+                1. roc curve of all the percentEval values
+                2. prc curve of all the percentEval values
+            console output:
+                1. list of the input weight percentages
+                2. all rocAUC scores
+                3. all prcAUC scores
+                4. the best weight percentage based on rocAUC and prcAUC, respectively.
 
-    index = [truth[0] for truth in groundTruthLabels]
-    true = [truth[1] for truth in groundTruthLabels]
+    """
+    df = pd.read_csv(r"{}".format(manualAnnotateFile), index_col=0)
+    splitName = re.split('-|_|\.',fuzzyScoreFile)   # the fuzzyScoreFile naming must end with format like "_0-1000.txt"
+    startIndex = int(splitName[-3])
+    endIndex = int(splitName[-2])
+    index = list(range(startIndex, endIndex))
+    true = [df.iloc[i][1] for i in range(len(df))]
     true = np.array(true)
 
-    allScores = combineData.importScore(fuzzyScoreFile)
+    allScores = importScore(fuzzyScoreFile)
 
+    # roc curve
     allRoc = []
-
     for k in range(len(percentEval)):
         score = []
         for i in index:
@@ -93,7 +135,7 @@ def rocAndPrcCurve(manualStartIndex, manualEndIndex,
         plt.legend(loc='lower right')
 
     file_save = "roc_curve.png"
-    plt.savefig("./temp/{}".format(file_save), format='png')
+    plt.savefig("../{}/{}".format(saveToFile,file_save), format='png')
     plt.show()
 
 
@@ -117,11 +159,21 @@ def rocAndPrcCurve(manualStartIndex, manualEndIndex,
         plt.legend(loc='lower left')
 
     file_save1 = "prc_curve.png"
-    plt.savefig("./temp/{}".format(file_save1), format='png')
+    plt.savefig("../{}/{}".format(saveToFile,file_save1), format='png')
     plt.show()
 
     print("The selected weight percentages are: {}.".format(percentEval))
     print("All rocAUC are {}.\nAll prcAUC are {}.".format(allRoc, allPrc))
+    best_ROC, best_PRC = 0, 0
+    bestW_r, bestW_p = 0, 0
+    for i in range(len(percentEval)):
+        if allRoc[i] > best_ROC:
+            best_ROC, bestW_r = allRoc[i], percentEval[i]
+        if allPrc[i] > best_PRC:
+            best_PRC, bestW_p = allPrc[i], percentEval[i]
+
+    print("The best weight percentage is {} based on roc, and {} based on prc.".format(bestW_r, bestW_p))
+
     return allRoc, allPrc
 
 #
@@ -136,23 +188,25 @@ def rocAndPrcCurve(manualStartIndex, manualEndIndex,
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='parameters for evalFunctionForRocCurve. ')
 
-    parser.add_argument('--startIndex', type=int, required=True,
-                        help='start index for the manually labeled data')
-    parser.add_argument('--endIndex', type=int, required=True,
-                        help='end index for the manually labeled data')
-    parser.add_argument('--fuzzyScoreFile', type=str, required=True,
+    # parser.add_argument('--startIndex', type=int, required=True,
+    #                     help='start index for the manually labeled data')
+    # parser.add_argument('--endIndex', type=int, required=True,
+    #                     help='end index for the manually labeled data')
+    parser.add_argument('-f', '--fuzzyScoreFile', type=str, required=True,
                         help='path to the fuzzy score file (the default is "fuzzyScores.txt"')
-    parser.add_argument('--manualLabelFile', type=str, required=True,
+    parser.add_argument('-m', '--manualLabelFile', type=str, required=True,
                         help='path to the manually labeled file (the default is "1000annotate.csv")')
     parser.add_argument('-p', '--percentForArtistScore', nargs='+', required=True,
                         help='set a list of weight percentage for eval function')
-    parser.add_argument('--combined', action=argparse.BooleanOptionalAction, required=True,
-                        help='select whether to combine manual label '
-                             'and fuzzywuzzy label with both as 0 and 100 scores'
-                             'need to use "--combined" or "--no-combined" in the arg')
+    # parser.add_argument('--combined', action=argparse.BooleanOptionalAction, required=True,
+    #                     help='select whether to combine manual label '
+    #                          'and fuzzywuzzy label with both as 0 and 100 scores'
+    #                          'need to use "--combined" or "--no-combined" in the arg')
+    parser.add_argument('-save', '--saveToFile', type=str, required=True,
+                        help='save files to (either "temp" or "data/filename")')
     args = parser.parse_args()
-    rocAndPrcCurve(args.startIndex, args.endIndex, args.fuzzyScoreFile, args.manualLabelFile,
-                   args.percentForArtistScore, args.combined)
+    rocAndPrcCurve(args.fuzzyScoreFile, args.manualLabelFile,
+                   args.percentForArtistScore, args.saveToFile)
 
 # current calling command line:
     # python .\evalFunctionAndAUC.py --startIndex=0 --endIndex=1000 --fuzzyScoreFile="fuzzyScores.txt"

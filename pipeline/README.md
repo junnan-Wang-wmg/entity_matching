@@ -10,15 +10,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#problem">Problem description</a></li> 
-    <li><a href="#data">Data description</a></li>
+    <li><a href="#problem">Problem Description</a></li> 
+    <li><a href="#data">Data Description</a></li>
     <li><a href="#algorithm">Algorithm</a>
       <ul>
         <li><a href="#doccano">Manual Annotation with Doccano</a></li>
         <li><a href="#fuzzyWuzzy">Fuzzy Matching</a></li>
-        <li><a href="#evalModel">Evaluation Model</a></li>
-        <li><a href="#auc">Roc and Prc analysis</a></li>
-        <li><a href="#check">Threshold analysis with original data</a></li>
+        <li><a href="#evalModel">Evaluation Model and Roc&Prc Analysis</a></li>
+        <li><a href="#check">Threshold Analysis with the Original Data</a></li>
       </ul>
     </li>
   </ol>
@@ -71,27 +70,73 @@ from 0-100. The higher the score, the more similarity between the two names.
 The fuzzy score is based on partial ratio method, which means that as long as there are partially mathcing between 
 two inputs, the score will be 100. In addition, the score is not case-sensitive.
 
-<h2 id="evalModel">Evaluation Models</h2>
+Process:
+1. Coding (open command prompt in "app" directory)
+```angular2html
+   python fuzzyWuzzy.py --file "../data/matching_data.csv" --output "../data/fuzzyScores.txt" --startIndex 0 --endIndex 1000 --preprocess
+```
+The code above set preprocessing to be true. If you do not want preprocessing, simply change "--process" 
+to "--no-process". The output file contains the index, artistScore, and trackScore. The file is saved to 
+the "data" directory.
+
+
+<h2 id="evalModel">Evaluation Model and Roc&Prc Analysis</h2>
 
 The evaluation model is to design a function to combine the artist and track fuzzy scores. The score would be between 0 
 and 1 for future purpose. The default evaluation model is to apply a weight of 0.5 for both artistScore/100 and 
 trackScore/100.
 
-The weight is a hyperparameter is determined to be 0.5 from the previous study. This hyperparameter could be adjusted.
+The weight is a hyperparameter is determined to be 0.5 from the previous study. Here is to optimize this 
+weight hyperpameter. The ROC and PRC analysis are performed in here. 
 
-<h2 id="auc">Roc and Prc Analysis</h2>
+Process:
+1. Coding:
+```angular2html
+   python evalFunctionAndAUC -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
+```
+The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
+The filenames should be adjusted. Then weight percentages that are evaluated should be attached after "-p".
+"-save" specifies where to save the output files. Typically, set "save" as "temp", and move the result to data 
+after checking.
+The output would be 2 png files:
+1. roc curve of all the percentEval values
+2. prc curve of all the percentEval values
+The console will show the best weight percentage based on the auc scores. The previous study shows that 0.5 is the 
+optimal weight percentage.
 
-The next step is to apply Roc and Prc analysis to compare the score from manually annotated data (from Doccanno)
-and the score from fuzzy matching after being evaluated through the evaluation model. The plots for Roc and Poc 
-are plotted. 
-
-In addition, two thresholds are set in here: precision = 0.9 and recall = 0.9. This two thresholds will separate all 
-the data into 3 segments: label=0, label=1, and undetermined. The unmatched data (either label=0 or label=1) are 
-extracted into separate files.
+Then transfer the results from "temp" directory to "data" directory.
 
 <h2 id="check">Threshold Analysis with Original Data</h2>
 
-The final step is to check with the original data with different thresholds.
+The final step is to check the separation of the data based on the thresholds that user determined. 
+
+Process:
+1. Coding:
+```angular2html
+   python compareInput.py -f "../data/fuzzyScores_0-1000.txt" -m "../data/1000annotate.csv" -p 0.5 -rt 0.97 -pt 0.9 -save "temp"
+```
+The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
+The filenames should be adjusted. The optimal weight percentage is set to "-p 0.5". This could be adjusted based on the previous result. The threshold 
+"rt" and "pt" can also be adjusted to better separate the data.
+"-save" specifies where to save the output files. Typically, set "save" as "temp", and move the result to data 
+after checking.
+
+The output would be 5 csv files with each file containing different segments of the data: 
+
+   **index, entry, combineScore, trueLabel.**
+
+1. data with label=0
+2. data with label=1
+3. data with label=undetermined
+4. incorrect data with label=0 (true label=1)
+5. incorrect data with label=1 (true label=0)
+
+Then transfer the results from "temp" directory to "data" directory.
+
+Then the incorrect labels can be easily viewed in the two incorrect data csv files. The reasons for the 
+inconsistency between manual annotation and fuzzy wuzzy score can be summarized. 
+In addition, the thresholds can be adjusted by chaning "-rt" and "-pt" to obtain better separation of data.
+
 
 From the last step, the unmatched data input will be evaluated to determine the reasons for the inconsistency between
 the manual label and the fuzzy matching label. The possible reasons could be the incorrect manual annotation, or some 
