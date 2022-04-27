@@ -58,7 +58,7 @@ The output file is saved in "data" directory.
 
     The next step is to import the data into Doccano and perform manual annotation. The manual annotation result is a 
 csv file containing combined entry (campaign, artist, and track names) and the annotated label (1 for matched, 
-3. 0 for unmatched)
+0 for unmatched)
 
 
 <h2 id="fuzzyWuzzy">Fuzzy Matching</h2>
@@ -71,7 +71,7 @@ The fuzzy score is based on partial ratio method, which means that as long as th
 two inputs, the score will be 100. In addition, the score is not case-sensitive.
 
 Process:
-1. Coding (open command prompt in "app" directory)
+
 ```angular2html
    python fuzzyWuzzy.py --file "../data/matching_data.csv" --output "../data/fuzzyScores.txt" --startIndex 0 --endIndex 1000 --preprocess
 ```
@@ -90,7 +90,7 @@ The weight is a hyperparameter is determined to be 0.5 from the previous study. 
 weight hyperpameter. The ROC and PRC analysis are performed in here. 
 
 Process:
-1. Coding:
+
 ```angular2html
    python evalFunctionAndAUC -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
 ```
@@ -111,7 +111,7 @@ Then transfer the results from "temp" directory to "data" directory.
 The final step is to check the separation of the data based on the thresholds that user determined. 
 
 Process:
-1. Coding:
+
 ```angular2html
    python compareInput.py -f "../data/fuzzyScores_0-1000.txt" -m "../data/1000annotate.csv" -p 0.5 -rt 0.97 -pt 0.9 -save "temp"
 ```
