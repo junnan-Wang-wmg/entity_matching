@@ -49,7 +49,8 @@ def extractInfo(targetFile, sourceFile="matching_data.csv", startIndex=0, endInd
     should contain campaign name, artist name,and track name. The dataset for this project is "matching_data.csv".
     :param startIndex: int, the starting index to extract from the source file.
     :param endIndex: int, the ending index to extract from the source file.
-    :return:
+    :return: a txt file. Each entry is with the following format:
+                <entry1> campaign name <entry2> <artistName> artistName <trackName> trackName
     """
     adjustEndIndex = extractCSV(sourceFile)[1]
     if endIndex <= adjustEndIndex:
