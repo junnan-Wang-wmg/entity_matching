@@ -1,3 +1,0 @@
-{"id": 1, "data": "My name is Junnan Wang, and I work as a Data Scientist!", "label": [[3, 7, "MISC"], [11, 22, "PERSON"], [30, 34, "MISC"], [40, 54, "Designation"]]}
-{"id": 2, "data": "I live in Iowa City.", "label": [[10, 19, "Location"], [2, 6, "MISC"]]}
-{"id": 3, "data": "I am vaccinated.", "label": [[5, 15, "MISC"]]}
