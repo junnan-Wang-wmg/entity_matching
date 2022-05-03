@@ -60,6 +60,16 @@ The output file is saved in "data" directory.
     The next step is to import the data into Doccano and perform manual annotation. The manual annotation result is a 
 csv file containing combined entry (campaign, artist, and track names) and the annotated label (1 for matched, 
 0 for unmatched)
+    To run Doccano, two command prompts should be open:
+Command line setup1:
+```angular2html
+    doccano webserver --port 8000
+```
+Command line setup2:
+```angular2html
+   doccano task
+```
+   For more details, please check the "Doccano Instruction.md" file.
 
 
 <h2 id="fuzzyWuzzy">Fuzzy Matching</h2>
