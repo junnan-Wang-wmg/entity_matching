@@ -109,7 +109,8 @@ def rocAndPrcCurve(fuzzyScoreFile="fuzzyScores.txt", manualAnnotateFile="1000ann
     splitName = re.split('-|_|\.',fuzzyScoreFile)   # the fuzzyScoreFile naming must end with format like "_0-1000.txt"
     startIndex = int(splitName[-3])
     endIndex = int(splitName[-2])
-    index = list(range(startIndex, endIndex))
+    # index = list(range(startIndex, endIndex))
+    index = list(range(0, endIndex-startIndex))
     true = [df.iloc[i][1] for i in range(len(df))]
     true = np.array(true)
 

@@ -69,7 +69,9 @@ Command line setup2:
 ```angular2html
    doccano task
 ```
-   For more details, please check the "Doccano Instruction.md" file.
+   For more details, please check the "Doccano Instruction.md" file. Note that the label for matched is set to 1, and 
+   for unmatched is set to 0. After finishing the manual annotation, output the result as csv file and transfer to the 
+   data directory here. My naming here is "1000annotate.csv".
 
 
 <h2 id="fuzzyWuzzy">Fuzzy Matching</h2>
@@ -103,7 +105,7 @@ weight hyperpameter. The ROC and PRC analysis are performed in here.
 Process:
 
 ```angular2html
-   python evalFunctionAndAUC -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
+   python evalFunctionAndAUC.py -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
 ```
 The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
 The filenames should be adjusted. Then weight percentages that are evaluated should be attached after "-p".
