@@ -56,6 +56,8 @@ The output file is the extracted data containing the campaign name, artist name,
 The output file is saved in "data" directory.
 
 2. Manual annotation:
+    Currently, the pipeline is setup in a way that we subset the entire data. However, pre-process can be taken separately
+    to avoid annotating entities with either a too high or low score.
 
     The next step is to import the data into Doccano and perform manual annotation. The manual annotation result is a 
 csv file containing combined entry (campaign, artist, and track names) and the annotated label (1 for matched, 
