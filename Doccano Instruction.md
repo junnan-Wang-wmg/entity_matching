@@ -11,6 +11,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#problem">Problem description</a></li>
+    <li><a href="#requirement">Requirement</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#setup">Setup</a></li>
     <li><a href="#ner">Named Entity Recognition</a></li>
@@ -24,10 +25,16 @@
 ## Problem
 This repo implements the named entity recognition (NER) and text classification using doccano. The related instruction can be found [here](https://github.com/doccano/doccano).
 
+<!-- Requirement -->
+## Requirement 
+Doccano server requires python package version at least 3.8.
+
 <!-- Installation -->
 ##  Installation
 Install the doccano server in local:
 ```shell script
+conda create --name entity_matching python=3.8
+conda activate entity_matching
 pip3 install doccano
 ```
 
@@ -52,6 +59,7 @@ doccano webserver --port 8000
 #### Terminal 2
 For the second terminal, we need to run the following commands for each time we are ready to do annotation task
 ```shell script
+conda activate entity_matching
 doccano task
 ```
 Then we need to open the webpage at <http://127.0.0.1:8000/> or <http://localhost:8000>. After that, we can use the annotation tool after 
