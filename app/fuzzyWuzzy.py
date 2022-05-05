@@ -83,7 +83,7 @@ if __name__ == '__main__':
                         help='number of data to analyze')
     parser.add_argument('--endIndex', type=int, required=True,
                         help='number of data to analyze')
-    parser.add_argument('--preprocess', action=argparse.BooleanOptionalAction, required=False,
+    parser.add_argument('--preprocess',action='store_true', required=False,
                         help='either choose to preprocess or not'
                              'use "--preprocess" or "--no-preprocess" in the arg')
     args = parser.parse_args()
