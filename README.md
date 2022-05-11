@@ -160,6 +160,9 @@ The code above directly saved the data files in data directory. In order to more
 data directory is now with subdirectory, such as "0-1000data" subdirectory. The information is simply moved from the 
 data directory into the subdirectory.
 
+The file "label0_incorrect.csv" and "label1_incorrect.csv" are examined very closely and a summary report 
+for error analysis is created.
+
 
 
 

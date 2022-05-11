@@ -13,7 +13,7 @@ index,entry,combineScore,trueLabel
 70.0,<entry1>  [Discovery] WrRE - Benson Boone - GHOST TOWN [Respend] - P2 - R - 0062L00000WCZgpQAH [United States]  <entry2> <artistName>  Benson Boone  <trackName>  Ghost Town,1.0,1.0
 72.0,<entry1>  [InStream] WrRE - Benson Boone - GHOST TOWN [Respend] - P2 - R - 0062L00000WCZgpQAH [United States]  <entry2> <artistName>  Benson Boone  <trackName>  Ghost Town,1.0,1.0
 73.0,<entry1>  WrRE - Mother Mother - LIFE - P1 - R - 0062L00000WCYBOQA5 [United States]  <entry2> <artistName>  Mother Mother  <trackName>  Life,1.0,1.0
-77.0,<entry1>  [Ride The Lightning] WrRE - Warren Zeiders - Artist Development - P3 - R - 0062L00000WC9ZiQAL [United States]  <entry2> <artistName>  Warren Zeiders  <trackName>  Ride the Lightning,1.0,0.0
+77.0,<entry1>  [Ride The Lightning] WrRE - Warren Zeiders - Artist Development - P3 - R - 0062L00000WC9ZiQAL [United States]  <entry2> <artistName>  Warren Zeiders  <trackName>  Ride the Lightning,1.0,1.0
 78.0,<entry1>  Eltr  - Avril Lavigne - Bite Me - P1 - R - 0062L00000WCTAAQA5 [United States]  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 79.0,<entry1>  [The Man Himself] WrCa - Gang of Youths - Man Himself + album pre-order - P1 - R - 0062L00000WCnU7QAL [Canada]  <entry2> <artistName>  Gang Of Youths  <trackName>  the man himself,1.0,1.0
 80.0,<entry1>  Elektra: Cobra Starship - Beautiful Life/Vinyl Pre-Order [FB Boosted]  <entry2> <artistName>  Cobra Starship  <trackName>  Beautiful Life,1.0,1.0
@@ -43,26 +43,31 @@ index,entry,combineScore,trueLabel
 124.0,<entry1>  Elektra: Skillet - Surviving the Game [Radio] [El Paso]  <entry2> <artistName>  Skillet  <trackName>  Surviving The Game,1.0,1.0
 125.0,<entry1>  Elektra: Cobra Starship - Beautiful Life/Vinyl Pre-Order  <entry2> <artistName>  Cobra Starship  <trackName>  Beautiful Life,1.0,1.0
 128.0,<entry1>  [Boost 5] WrRE - Bryce Vine - Miss You a Little - P2 - R - 0062L00000VHNoaQAH  [USA]  <entry2> <artistName>  Bryce Vine  <trackName>  Miss You A Little,1.0,1.0
+131.0,<entry1>  [A] WrNa - Warner Music Nashville - November YouTube Campaigns - P1 - R - 0062L00000WCWyiQAH  <entry2> <artistName>  gnash  <trackName>  us,0.92,0.0
 140.0,<entry1>  YT - A36 - AREA 36 - Block - Preroll - Mot video  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
 180.0,"<entry1>  Amir - Clip Rétine Réédition album - 1,5k€ - 121121  <entry2> <artistName>  Amir  <trackName>  Rétine",1.0,1.0
 200.0,<entry1>  N006377 - Anitta - Envolver - LATAM - Launch  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
-210.0,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,0.0
+210.0,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
 221.0,<entry1>  Neil Young Barn Album_CrazyHorse SongOfTheSeasons_Youtube_InStream Ad_awareness  <entry2> <artistName>  ORS  <trackName>  Go,1.0,0.0
 222.0,<entry1>  Neil Young Barn Album_CrazyHorse SongOfTheSeasons_Youtube_InStream Ad_awareness  <entry2> <artistName>  Sea  <trackName>  Go,1.0,0.0
 223.0,<entry1>  Neil Young Barn Album_CrazyHorse SongOfTheSeasons_Youtube_InStream Ad_awareness  <entry2> <artistName>  Neil Young  <trackName>  Crazy,1.0,0.0
 250.0,"<entry1>  N006347 iZaak x  Jay Wheeler  """"El Finde""""- Google Pre Roll Campaign- GOOGLE 4.5K  <entry2> <artistName>  iZaak, Jay Wheeler  <trackName>  Finde",0.9319999999999999,1.0
+251.0,"<entry1>  N006347 iZaak x  Jay Wheeler  """"El Finde""""- Google Pre Roll Campaign- GOOGLE 4.5K  <entry2> <artistName>  Rampa  <trackName>  Roll",0.92,0.0
+252.0,"<entry1>  N006347 iZaak x  Jay Wheeler  """"El Finde""""- Google Pre Roll Campaign- GOOGLE 4.5K  <entry2> <artistName>  Rampa  <trackName>  Ay",0.92,0.0
 270.0,<entry1>  Ilta - Taivas maan päällä  <entry2> <artistName>  Ilta  <trackName>  Taivas maan päällä,1.0,1.0
 280.0,<entry1>  HI - LW - Joel Corry - I Wish ft. Mabel NL:PO547415  <entry2> <artistName>  Joel Corry  <trackName>  I Wish,1.0,1.0
 290.0,<entry1>  [SC] Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride,1.0,1.0
 310.0,<entry1>  Karl Killing - friday nights-WMB  <entry2> <artistName>  Karl Killing  <trackName>  friday nights,1.0,1.0
 330.0,<entry1>  Anitta - Envolver - Final  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
 340.0,<entry1>  [SC] Rod Stewart - The Tears of Hercules - ALB - NOV 2021  <entry2> <artistName>  Rod Stewart  <trackName>  The Tears Of Hercules,1.0,1.0
+360.0,<entry1>  [OMV] Atln - Garrett Nash - Palm Trees - P1 - R - 0062L00000VJOUAQA5 [United States]  <entry2> <artistName>  gnash  <trackName>  Palm Trees,0.92,1.0
 380.0,<entry1>  [TrueView] Avril Lavigne - Bite Me | 12.11  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 390.0,<entry1>  Liis Lemsalu-Magusvalus-WMB  <entry2> <artistName>  Liis Lemsalu  <trackName>  Magusvalus,1.0,1.0
 420.0,<entry1>  WrRE - Adam Melchor x Briston Maroney - Hold On For Dear Life - P1 - R - 0062L00000WCUvIQAX [United States]  <entry2> <artistName>  Adam Melchor & Briston Maroney  <trackName>  Hold on for Dear Life,0.988,1.0
 430.0,<entry1>  Malou - Let You Go_Youtube_Instream Ad & Discovery Ad_clicks  <entry2> <artistName>  Malou  <trackName>  Let You Go,1.0,1.0
 440.0,<entry1>  Rod Stewart - The Tears Of Hercules - Out Now - Phase 3_Youtube_InStream Ad_awareness  <entry2> <artistName>  Rod Stewart  <trackName>  The Tears Of Hercules,1.0,1.0
 450.0,<entry1>  Lil Uzi Vert - Demon High #2_Youtube_Instream Ad & Discovery Ad_awareness  <entry2> <artistName>  Lil Uzi Vert  <trackName>  Demon High,1.0,1.0
+460.0,<entry1>  N006396- Blessd Medallo -Pre Roll Campaign  Google 5k  <entry2> <artistName>  Rampa  <trackName>  Roll,0.92,0.0
 470.0,<entry1>  [Discovery] Avril Lavigne - Bite Me | 12.11  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 480.0,<entry1>  WrRE - Erica Banks - Designer - P1 - R - 0062L00000VflpOQAR [United States]  <entry2> <artistName>  Erica Banks  <trackName>  Designer,1.0,1.0
 490.0,<entry1>  WrRE - Omah Lay - Free My Mind - P1 - R - 0062L00000WCWTBQA5 [United States]  <entry2> <artistName>  Omah Lay  <trackName>  Free My Mind,1.0,1.0
@@ -79,22 +84,23 @@ index,entry,combineScore,trueLabel
 670.0,<entry1>  2021 - Joel Corry - I Wish  <entry2> <artistName>  Joel Corry  <trackName>  I Wish,1.0,1.0
 680.0,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Star,1.0,0.0
 681.0,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman,1.0,1.0
-684.0,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman (2003 Remix),1.0,0.0
+684.0,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman (2003 Remix),1.0,1.0
 690.0,<entry1>  Benson Boone - GHOST TOWN - Boost Benson - Local asset  <entry2> <artistName>  Benson Boone  <trackName>  Ghost Town,1.0,1.0
 700.0,<entry1>  Atln - GAYLE - Abcdefu [Pt. 2 - iTunes] - P2 - R - 0062L00000WCn3qQAD [United States]  <entry2> <artistName>  GAYLE  <trackName>  abcdefu,1.0,1.0
 720.0,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Going To California,1.0,1.0
-721.0,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Led Zeppelin - Going to California,1.0,0.0
+721.0,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Led Zeppelin - Going to California,1.0,1.0
 730.0,<entry1>  A36 - AREA 36 / BLOCK - Musikvideo Block Ute på fredag - Boost A36  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
 740.0,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Pick Out a Christmas Tree,1.0,1.0
-741.0,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Officially Christmas,1.0,0.0
+741.0,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Officially Christmas,1.0,1.0
 790.0,<entry1>  DOM_DGerrard_Magic_ppe-youtube_12Nov2021  <entry2> <artistName>  D Gerrard  <trackName>  Magic,0.956,1.0
+791.0,<entry1>  DOM_DGerrard_Magic_ppe-youtube_12Nov2021  <entry2> <artistName>  210  <trackName>  Tub,0.92,0.0
 850.0,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta  <trackName>  Family,1.0,1.0
-851.0,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta & Sia  <trackName>  Family,0.9319999999999999,0.0
+851.0,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta & Sia  <trackName>  Family,0.9319999999999999,1.0
 860.0,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  CKay  <trackName>  love nwantiti,1.0,1.0
 861.0,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  CKay  <trackName>  love nwantiti (ah ah ah),1.0,1.0
 866.0,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  CKay  <trackName>  love nwantiti (DITVAK Remix),1.0,1.0
 867.0,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  CKay  <trackName>  Love Nwantiti (Acoustic Version),1.0,1.0
-870.0,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,0.0
+870.0,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
 880.0,<entry1>  [Anitta - Envolver] Tráfego - 12.11  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
 890.0,<entry1>  [Avril Lavigne - Bite Me] Tráfego - 12.11  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 930.0,<entry1>  WrCa - David Boyd Janes - Drove Me Country [Apple Music] - P1 - R - 0062L00000VJ2vVQAT [Canada]  <entry2> <artistName>  David Boyd Janes  <trackName>  Drove Me Country,1.0,1.0
@@ -104,8 +110,8 @@ index,entry,combineScore,trueLabel
 980.0,"<entry1>  [1869] - AR, Mariela Castiglioni, Anitta, Envolver, 60 K, Nov 2021  <entry2> <artistName>  Anitta  <trackName>  Envolver",1.0,1.0
 990.0,"<entry1>  [1869] - AR, Mariela Castiglioni, Anitta, Envolver, 90K perfil de Anitta, Nov 2021  <entry2> <artistName>  Anitta  <trackName>  Envolver",1.0,1.0
 1020.0,"<entry1>  [1868] - AR, Santiago Silva, Justin Quiles, Colorin Colorao, 100K, Nov 2021  <entry2> <artistName>  Justin Quiles  <trackName>  Colorín Colorado",0.928,1.0
-1061.0,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Charlotte Cardin  <trackName>  Phoenix,1.0,0.0
-1070.0,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  Gambi  <trackName>  Khedma,1.0,0.0
+1061.0,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Charlotte Cardin  <trackName>  Phoenix,1.0,1.0
+1070.0,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  Gambi  <trackName>  Khedma,1.0,1.0
 1090.0,<entry1>  [Phase 1] [FB/IG/IGS] WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Officially Christmas,1.0,1.0
 1091.0,<entry1>  [Phase 1] [FB/IG/IGS] WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Pick Out a Christmas Tree,1.0,1.0
 1100.0,<entry1>  [Phase 1] [FB Boosted] WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Pick Out a Christmas Tree,1.0,1.0
@@ -115,13 +121,15 @@ index,entry,combineScore,trueLabel
 1123.0,<entry1>  HI - VV - Alok - Wherever You Go - BE:PO546710  <entry2> <artistName>  Alok  <trackName>  Wherever You Go (feat. John Martin),1.0,1.0
 1150.0,<entry1>  Avril Lavigne - Bite Me  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 1170.0,<entry1>  Avril Lavigne - Bite Me  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
+1210.0,<entry1>  [FB - Bruno Mars] WrNz - Silk Sonic - Album - P1 - R - 0062L00000WCcoNQAT [New Zealand]  <entry2> <artistName>  Zeana  <trackName>  Run,0.92,0.0
 1250.0,<entry1>  AAtln - GAYLE - Abcdefu [Pt. 2] (Phase 2 - DSPs) [IG Reels] - P2 - R - 0062L00000WCn3qQAD [United States]  <entry2> <artistName>  GAYLE  <trackName>  abcdefu,1.0,1.0
 1260.0,<entry1>  Big Beat: Atlantic Chill - Nostalgic Memory [Q4 2021]  IG Boosted - P1 - R - 0062L00000VJ6zpQAD [USA]  <entry2> <artistName>  Tai Chi  <trackName>  Lan,0.944,0.0
 1320.0,<entry1>  WrRE - Erica Banks - Designer - P1 - R - 0062L00000VflpOQAR [United States]  <entry2> <artistName>  Erica Banks  <trackName>  Designer,1.0,1.0
 1340.0,<entry1>  WrRE - Gang of Youths - The Man Himself - P1 - R - 0062L00000VIUsuQAH [United States]  <entry2> <artistName>  Gang Of Youths  <trackName>  the man himself,1.0,1.0
 1350.0,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [FB] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,1.0,1.0
-1360.0,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,1.0,0.0
+1360.0,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,1.0,1.0
 1370.0,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [Reels] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,1.0,1.0
+1410.0,<entry1>  Instagram post: 🐐 @ckay_yo  <entry2> <artistName>  Rampa  <trackName>  Ay,0.92,0.0
 1450.0,<entry1>  Robin Schulz & Dennis Lloyd - Young Right Now  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
 1470.0,<entry1>  Avril Lavigne - Bite Me  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 1480.0,<entry1>  PAUL PABLO - GULO NOV 2021 AUDIO ADS  <entry2> <artistName>  Paul Pablo  <trackName>  Gulo,1.0,1.0
@@ -134,10 +142,12 @@ index,entry,combineScore,trueLabel
 1640.0,<entry1>  Malou - Let You Go_Instagram_Feed Ad_clicks  <entry2> <artistName>  Malou  <trackName>  Let You Go,1.0,1.0
 1670.0,<entry1>  Sia - Santa Visits Everyone (Spotify Exclusive)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Sia  <trackName>  Santa Visits Everyone,1.0,1.0
 1690.0,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Story Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,1.0,1.0
-1700.0,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,1.0,0.0
+1700.0,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,1.0,1.0
 1710.0,<entry1>  FOALS - Wake Me Up (Track)_Facebook_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,1.0,1.0
+1711.0,<entry1>  FOALS - Wake Me Up (Track)_Facebook_Feed Ad_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 1720.0,<entry1>  NLE Choppa - Jumpin_Instagram_Story Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jumpin,1.0,1.0
-1730.0,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jumpin,1.0,0.0
+1730.0,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jumpin,1.0,1.0
+1770.0,<entry1>  Heidi Klum - Wonderland_Facebook_Feed Ad_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 1790.0,<entry1>  Avril Lavigne - Bite Me (Animated Artwork)_Instagram_Story Ad_awareness  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 1800.0,<entry1>  Robin Schulz & Dennis Lloyd - Young Right Now_Instagram_Story Ad_clicks  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
 1810.0,<entry1>  Robin Schulz & Dennis Lloyd - Young Right Now_Instagram_Feed Ad_clicks  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
@@ -176,7 +186,7 @@ index,entry,combineScore,trueLabel
 2310.0,<entry1>  Eltr  - Avril Lavigne - Bite Me [Boosted] - P1 - R - 0062L00000WCTAAQA5 [United States]  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
 2311.0,<entry1>  WrRE - IV4 - Stroke - P1 - R - 0062L00000WC8uqQAD [United States]  <entry2> <artistName>  IV4  <trackName>  Stroke,1.0,1.0
 2322.0,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro TDH  <trackName>  Nueve (Intro),1.0,1.0
-2323.0,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro Tdh  <trackName>  Nueve (Intro),1.0,0.0
+2323.0,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro Tdh  <trackName>  Nueve (Intro),1.0,1.0
 2411.0,<entry1>  YT - A36 - Block - BOOST  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
 2421.0,<entry1>  WrRE - Smiley - Breakdown + Buy or Bye 2 - P1 - R - 0062L00000WCTtuQAH (Buy or Bye 2 release) [USA]  <entry2> <artistName>  Smiley  <trackName>  Breakdown,1.0,1.0
 2451.0,<entry1>  Ilta - Taivas maan päällä  <entry2> <artistName>  Ilta  <trackName>  Taivas maan päällä,1.0,1.0
@@ -188,13 +198,17 @@ index,entry,combineScore,trueLabel
 2541.0,<entry1>  HI - Zoe Livay - Vloek - NL:PO(adcredits)  <entry2> <artistName>  Zoë Livay  <trackName>  Vloek,0.956,1.0
 2571.0,<entry1>  Robin Schulz & Dennis Lloyd - Young Right Now  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
 2581.0,<entry1>  Lil Uzi Vert - Demon High #2_TikTok_Promoted Post_clicks  <entry2> <artistName>  Lil Uzi Vert  <trackName>  Demon High,1.0,1.0
+2582.0,<entry1>  Lil Uzi Vert - Demon High #2_TikTok_Promoted Post_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
+2583.0,<entry1>  Lil Uzi Vert - Demon High #2_TikTok_Promoted Post_clicks  <entry2> <artistName>  LemON  <trackName>  Po,0.92,0.0
 2601.0,<entry1>  Int - Ed Sheeran - Overpass Graffiti MV - Traffic - Spotify  <entry2> <artistName>  Ed Sheeran  <trackName>  Overpass Graffiti,1.0,1.0
 2602.0,<entry1>  Int - Ed Sheeran - Overpass Graffiti MV - Traffic - Spotify  <entry2> <artistName>  Ed Sheeran  <trackName>  Overpass Graffiti (TCTS Remix),1.0,1.0
 2613.0,<entry1>  HI - VV - Alok - Wherever You Go - BE:PO546710  <entry2> <artistName>  Alok  <trackName>  Wherever You Go (feat. John Martin),1.0,1.0
 2631.0,<entry1>  WMP - Minelli - Nothing Hurts - Traffic  <entry2> <artistName>  Minelli  <trackName>  Nothing Hurts,1.0,1.0
 2651.0,"<entry1>  ANI - Tyttö sä oot tähti  <entry2> <artistName>  ANI  <trackName>  Tyttö, sä oot tähti",0.982,1.0
 2681.0,<entry1>  Malou - Let You Go_TikTok_In-Feed Ad_clicks  <entry2> <artistName>  Malou  <trackName>  Let You Go,1.0,1.0
+2682.0,<entry1>  Malou - Let You Go_TikTok_In-Feed Ad_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 2691.0,<entry1>  Int - Avril Lavigne - Bite Me - Traffic - Spotify  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
+2701.0,<entry1>  JC Stewart - DSYLM FLight 3_TikTok_In-Feed Ad_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 2711.0,<entry1>  A36 - AREA 36 / BLOCK - Musikvideo Block Ute nu - Boost A36  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
 2731.0,<entry1>  A36 - AREA 36 / BLOCK - Ute nu - Dark post  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
 2741.0,<entry1>  A36 - AREA 36 / BLOCK - Musikvideo Block Ute nu - Boost A36 - NORGE  <entry2> <artistName>  A36  <trackName>  BLOCK,1.0,1.0
@@ -213,18 +227,22 @@ index,entry,combineScore,trueLabel
 2911.0,<entry1>  WrRE - Omah Lay - Free My Mind - P1 - R - 0062L00000WCWTBQA5 [United States]  <entry2> <artistName>  Omah Lay  <trackName>  Free My Mind,1.0,1.0
 2931.0,<entry1>  [Buy or Bye 2] WrRE - Smiley - Breakdown + Buy or Bye 2 - P1 - R - 0062L00000WCTtuQAH (Buy or Bye 2 pre-save)-gGHiI  <entry2> <artistName>  Smiley  <trackName>  Breakdown,1.0,1.0
 2988.0,<entry1>  DOM_Luss_4th_ppe-youtube_13Nov2021_youtube_fb_artist_nfm_vdo-tease1  <entry2> <artistName>  USS  <trackName>  Us,1.0,0.0
+2991.0,<entry1>  Kelly Clarkson Birthday Campaign  <entry2> <artistName>  Rampa  <trackName>  Ay,0.92,0.0
 3011.0,<entry1>  Int - Ed Sheeran - Overpass Graffiti MV - Landing Page Views - Spotify  <entry2> <artistName>  Ed Sheeran  <trackName>  Overpass Graffiti,1.0,1.0
 3018.0,<entry1>  Int - Ed Sheeran - Overpass Graffiti MV - Landing Page Views - Spotify  <entry2> <artistName>  Ed Sheeran  <trackName>  Overpass Graffiti (TCTS Remix),1.0,1.0
 3051.0,<entry1>  [INTL] PINK SWEAT$ NOTHING FEELS BETTER  <entry2> <artistName>  Pink  <trackName>  Feel,1.0,0.0
 3052.0,<entry1>  [INTL] PINK SWEAT$ NOTHING FEELS BETTER  <entry2> <artistName>  Pink Sweat$  <trackName>  Nothing Feels Better,1.0,1.0
 3061.0,<entry1>  [INTL] COLDPLAY ED SHEERAN FIX YOU  <entry2> <artistName>  Coldplay  <trackName>  Fix You,1.0,1.0
+3062.0,<entry1>  [INTL] COLDPLAY ED SHEERAN FIX YOU  <entry2> <artistName>  Ay Em  <trackName>  LA,0.92,0.0
 3069.0,<entry1>  [INTL] COLDPLAY ED SHEERAN FIX YOU  <entry2> <artistName>  Coldplay  <trackName>  Fix You (Quiet),0.9580000000000001,1.0
+3073.0,<entry1>  [INTL] SILK SONIC SMOKIN OUT THE WINDOW REELS  <entry2> <artistName>  LSP  <trackName>  OK,0.92,0.0
 3079.0,<entry1>  [INTL] SILK SONIC SMOKIN OUT THE WINDOW REELS  <entry2> <artistName>  SIL  <trackName>  Windows (Ralvero Remix),0.928,0.0
 3080.0,<entry1>  [INTL] SILK SONIC SMOKIN OUT THE WINDOW REELS  <entry2> <artistName>  Sil  <trackName>  Windows (Ralvero Remix),0.928,0.0
 3091.0,<entry1>  WrRE - Smiley - Breakdown + Buy or Bye 2 - P1 - R - 0062L00000WCTtuQAH (Buy or Bye 2 Release) (row e) [United States]  <entry2> <artistName>  Smiley  <trackName>  Breakdown,1.0,1.0
 3171.0,<entry1>  drenaz fendi  <entry2> <artistName>  DreNaz  <trackName>  Fendi,1.0,1.0
 3191.0,<entry1>  Rod Stewart - The Tears Of Hercules - Out Now - Phase 3_Facebook_Feed Ad_engagement  <entry2> <artistName>  Rod Stewart  <trackName>  The Tears Of Hercules,1.0,1.0
 3201.0,<entry1>  Falco Emotional Deluxe - Out Now - Pre Rolls_Facebook_Feed Ad_clicks  <entry2> <artistName>  Falco  <trackName>  Emotional,1.0,1.0
+3203.0,<entry1>  Falco Emotional Deluxe - Out Now - Pre Rolls_Facebook_Feed Ad_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 3211.0,<entry1>  Amazon Falco Emotional Deluxe - Out Now - Amazon_Pre Rolls_Facebook_Feed Ad_engagement2  <entry2> <artistName>  T2  <trackName>  OK,1.0,0.0
 3212.0,<entry1>  Amazon Falco Emotional Deluxe - Out Now - Amazon_Pre Rolls_Facebook_Feed Ad_engagement2  <entry2> <artistName>  Falco  <trackName>  Emotional,1.0,1.0
 3221.0,<entry1>  Falco Emotional Deluxe - Out Now - Pre Rolls_Instagram_Feed Ad_clicks  <entry2> <artistName>  Falco  <trackName>  Emotional,1.0,1.0
@@ -237,15 +255,18 @@ index,entry,combineScore,trueLabel
 3291.0,<entry1>  ABREU - Sabotage - FB  <entry2> <artistName>  ABREU  <trackName>  Sabotage,1.0,1.0
 3301.0,<entry1>  Suvi Teräsniska - Kriisit - FB  <entry2> <artistName>  Suvi Teräsniska  <trackName>  Kriisit,1.0,1.0
 3311.0,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride,1.0,1.0
-3316.0,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride (U.S. Remix),1.0,0.0
+3316.0,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride (U.S. Remix),1.0,1.0
 3331.0,<entry1>  Vanesa Martín - y yo latiendo - SGL - NOV 2021  <entry2> <artistName>  Vanesa Martín  <trackName>  Y yo latiendo,1.0,1.0
 3341.0,<entry1>  Rod Stewart - The Tears of Hercules - ALB - NOV 2021  <entry2> <artistName>  Rod Stewart  <trackName>  The Tears Of Hercules,1.0,1.0
 3421.0,<entry1>  2624 | WMA ADS | MA | COLE SWINDELL | NEVER SAY NEVER | P067990__Video views  <entry2> <artistName>  Cole Swindell  <trackName>  Never Say Never,1.0,1.0
 3451.0,<entry1>  Atln - Oliver Tree - Life Goes On [Ty Dolla $ign Remix] - P1 - R - 0062L00000WCjCFQA1 [United States]  <entry2> <artistName>  Oliver Tree  <trackName>  Life Goes On,1.0,1.0
 3452.0,<entry1>  AR - Anitta - Envolver - 1121 - T001871  <entry2> <artistName>  Anitta  <trackName>  Envolver,1.0,1.0
 3462.0,<entry1>  BgBt - Atlantic Chill - Atlantic Chill [Q4] - P1 - R - 0062L00000VJ6zpQAD [Nostalgic Memory - USA]  <entry2> <artistName>  Tai Chi  <trackName>  Lan,0.944,0.0
+3552.0,<entry1>  [Long Beatz - Voodoo] Tráfego Youtube - 13.11.2021  <entry2> <artistName>  210  <trackName>  Tub,0.92,0.0
 3562.0,<entry1>  Vũ. - Bước Qua Nhau (Link Click)  <entry2> <artistName>  Vũ  <trackName>  Bước Qua Nhau,1.0,1.0
 3563.0,<entry1>  Vũ. - Bước Qua Nhau (Link Click)  <entry2> <artistName>  Vũ.  <trackName>  Bước Qua Nhau,1.0,1.0
+3582.0,<entry1>  Tom Petty // Doku YouTube Launch // Promoted Post_Facebook_Promoted Post_clicks  <entry2> <artistName>  Motel  <trackName>  Aun,0.92,0.0
+3583.0,<entry1>  Tom Petty // Doku YouTube Launch // Promoted Post_Facebook_Promoted Post_clicks  <entry2> <artistName>  KSI  <trackName>  ok,0.92,0.0
 3612.0,<entry1>  2513| WMA ADS | MA | SIA | EVERYDAY IS CHRISTMAS| P067944 | INT  <entry2> <artistName>  Sia  <trackName>  Everyday Is Christmas,1.0,1.0
 3624.0,<entry1>  WrCa - Remble - Rocc Climbing - P1 - R - 0062L00000WCv9BQAT [Canada]  <entry2> <artistName>  Remble  <trackName>  Rocc Climbing,1.0,1.0
 3625.0,<entry1>  WrIe - Avril Lavigne - Bite Me - P1 - R - 0062L00000WCoQVQA1 [Ireland]  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1.0,1.0
@@ -256,6 +277,7 @@ index,entry,combineScore,trueLabel
 3692.0,<entry1>  WMP - YT - Chef'Special - Afraid Of The Dark  <entry2> <artistName>  Chef'Special  <trackName>  Afraid Of The Dark (Deepend Remix),0.982,1.0
 3693.0,<entry1>  WMP - YT - Chef'Special - Afraid Of The Dark  <entry2> <artistName>  Chef'Special  <trackName>  Afraid Of The Dark (Deepend Extended Remix),0.982,1.0
 3721.0,<entry1>  WMP - YT - Minelli - Nothing hurts - Discovery  <entry2> <artistName>  Minelli  <trackName>  Nothing Hurts,1.0,1.0
+3741.0,<entry1>  WMP - YT - Alok feat. John Martin - Wherever You Go  <entry2> <artistName>  Gob  <trackName>  OK,0.92,0.0
 3742.0,<entry1>  WMP - YT - Alok feat. John Martin - Wherever You Go  <entry2> <artistName>  Alok  <trackName>  Wherever You Go (feat. John Martin),0.982,1.0
 3751.0,<entry1>  WMP - YT - Robin Schulz & Dennis Lloyd - Young Right Now  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
 3771.0,<entry1>  Robin Schulz & Dennis Lloyd - Young Right Now_Youtube_InStream Ad_clicks  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,1.0,1.0
@@ -263,3 +285,4 @@ index,entry,combineScore,trueLabel
 3791.0,<entry1>  AR - Emanero - Chernobyl - 1121 - N002851  <entry2> <artistName>  Emanero  <trackName>  Chernobyl,1.0,1.0
 3811.0,<entry1>  Rhno - Sia - Snowman [2021] - P1 - R - 0062L00000WCfZHQA1[Discovery - USA]  <entry2> <artistName>  Sia  <trackName>  Snowman,1.0,1.0
 3941.0,<entry1>  Warner Music Canada - Montreal - Amir - Ressources [Deluxe] - P1 - R - 0062L00000WCpy3QAD [Canada]  <entry2> <artistName>  of Montreal  <trackName>  Montreal,0.9279999999999999,0.0
+3961.0,<entry1>  Rhno - Grateful Dead - Almanac - P1 - M - 0062L00000WCspdQAD - [USA]  <entry2> <artistName>  Grace  <trackName>  Us,0.92,0.0

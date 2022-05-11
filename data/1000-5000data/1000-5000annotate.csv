@@ -76,7 +76,7 @@ id,data,label
 55887,"<entry1>  Atln - Silk Sonic - An Evening With Silk Sonic - P1 - R - 0062L00000WCc1fQAD [USA]  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0
 55888,<entry1>  Atln - Jasmine Thompson - Love Is Just A Word ft. Calum Scott - P1 - R - 0062L00000WCTxSQAX  <entry2> <artistName>  Jasmine Thompson and Calum Scott  <trackName>  love is just a word,1
 55889,<entry1>  WrCa - Amaal - Milly - P1 - R - 0062L00000WCE2ZQAX (Selfish Official Music Video) [Canada]  <entry2> <artistName>  Amaal  <trackName>  Heaven,0
-55890,<entry1>  [Ride The Lightning] WrRE - Warren Zeiders - Artist Development - P3 - R - 0062L00000WC9ZiQAL [United States]  <entry2> <artistName>  Warren Zeiders  <trackName>  Ride the Lightning,0
+55890,<entry1>  [Ride The Lightning] WrRE - Warren Zeiders - Artist Development - P3 - R - 0062L00000WC9ZiQAL [United States]  <entry2> <artistName>  Warren Zeiders  <trackName>  Ride the Lightning,1
 55891,<entry1>  Eltr  - Avril Lavigne - Bite Me - P1 - R - 0062L00000WCTAAQA5 [United States]  <entry2> <artistName>  Avril Lavigne  <trackName>  Bite Me,1
 55892,<entry1>  [The Man Himself] WrCa - Gang of Youths - Man Himself + album pre-order - P1 - R - 0062L00000WCnU7QAL [Canada]  <entry2> <artistName>  Gang Of Youths  <trackName>  the man himself,1
 55893,<entry1>  Elektra: Cobra Starship - Beautiful Life/Vinyl Pre-Order [FB Boosted]  <entry2> <artistName>  Cobra Starship  <trackName>  Beautiful Life,1
@@ -209,7 +209,7 @@ id,data,label
 56020,<entry1>  N006377 - Anitta - Envolver - LATAM - Launch  <entry2> <artistName>  Anitta  <trackName>  Live Latinos Unidos,0
 56021,<entry1>  N006377 - Anitta - Envolver - LATAM - Launch  <entry2> <artistName>  Revolver  <trackName>  Enjoy,0
 56022,<entry1>  N006377 - Anitta - Envolver - LATAM - Launch  <entry2> <artistName>  Anitta  <trackName>  Tambor / Samuel,0
-56023,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Envolver,0
+56023,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Envolver,1
 56024,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Zen,0
 56025,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Mulher,0
 56026,<entry1>  N006377 - Anitta - Midnight Try - Envolver  <entry2> <artistName>  Anitta  <trackName>  Vinheta,0
@@ -612,7 +612,7 @@ id,data,label
 56423,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  A36  <trackName>  BLOCK,1
 56424,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  RA  <trackName>  Bolo,0
 56425,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  Marea  <trackName>  Marea,0
-56426,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  A36  <trackName>  AREA 36 Trailer,1
+56426,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  A36  <trackName>  AREA 36 Trailer,0
 56427,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  Rai  <trackName>  Pablo,0
 56428,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  13 Block  <trackName>  Sale,0
 56429,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  13 Block  <trackName>  Triple S,0
@@ -683,7 +683,7 @@ id,data,label
 56494,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman,1
 56495,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Stay,0
 56496,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  Stamp  <trackName>  Karma,0
-56497,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman (2003 Remix),0
+56497,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  Starman (2003 Remix),1
 56498,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Blue  <trackName>  Sara,0
 56499,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Tao  <trackName>  Rain,0
 56500,<entry1>  David Bowie - Starman (reach) RH  <entry2> <artistName>  David Bowie  <trackName>  O Superman,0
@@ -720,7 +720,7 @@ id,data,label
 56531,<entry1>  JC Stewart - Awareness video  <entry2> <artistName>  WAR  <trackName>  Vibeka,0
 56532,<entry1>  JC Stewart - Awareness video  <entry2> <artistName>  John Stewart  <trackName>  Rider,0
 56533,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Going To California,1
-56534,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Led Zeppelin - Going to California,0
+56534,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Led Zeppelin - Going to California,1
 56535,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Cali  <trackName>  Douce vie,0
 56536,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Led Zeppelin  <trackName>  Going Down Slow,0
 56537,<entry1>  Led Zeppelin - Going to California (video views) [CE]  <entry2> <artistName>  Cali  <trackName>  Putain De Vie,0
@@ -740,7 +740,7 @@ id,data,label
 56551,<entry1>  A36 - AREA 36 / BLOCK - Musikvideo Block Ute på fredag - Boost A36  <entry2> <artistName>  Boosta  <trackName>  Boosta: Diva,0
 56552,<entry1>  A36 - AREA 36 / BLOCK - Musikvideo Block Ute på fredag - Boost A36  <entry2> <artistName>  VIVID  <trackName>  Taj,0
 56553,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Pick Out a Christmas Tree,1
-56554,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Officially Christmas,0
+56554,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Dan + Shay  <trackName>  Officially Christmas,1
 56555,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Master  <trackName>  Master,0
 56556,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  Vistas  <trackName>  Calm,0
 56557,<entry1>  WrNa - Dan + Shay - Pick Out A Christmas Tree [Amazon Music] + Officially Christmas - P1 - R - 0062L00000WC8iZQAT  <entry2> <artistName>  ATB  <trackName>  9:00 AM,0
@@ -850,7 +850,7 @@ id,data,label
 56661,<entry1>  [Silk Sonic - Album] Tráfego 12.11.21  <entry2> <artistName>  210  <trackName>  Bush,0
 56662,<entry1>  [Silk Sonic - Album] Tráfego 12.11.21  <entry2> <artistName>  Sabu  <trackName>  Walk Alone,0
 56663,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta  <trackName>  Family,1
-56664,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta & Sia  <trackName>  Family,0
+56664,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  David Guetta & Sia  <trackName>  Family,1
 56665,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  IZA  <trackName>  Gueto,0
 56666,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  Etta  <trackName>  Fani,0
 56667,<entry1>  [Iza & David Guetta - Family] Tráfego - 11.11.21  <entry2> <artistName>  Etta  <trackName>  10,0
@@ -869,7 +869,7 @@ id,data,label
 56680,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  CKay  <trackName>  Love Nwantiti (Acoustic Version),1
 56681,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  Trace  <trackName>  Make Love,0
 56682,<entry1>  [France] WrWW - Ckay - Love Nwantiti [Phase 4] [FB/IG/IGS] - P4 - R - 0062L00000WCR7RQAX  <entry2> <artistName>  Grace  <trackName>  Orange,0
-56683,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Envolver,0
+56683,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Envolver,1
 56684,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Zen,0
 56685,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Anitta  <trackName>  Sí o no,0
 56686,<entry1>  [Anitta - Envolver] Video View - 12.11  <entry2> <artistName>  Revolver  <trackName>  Enjoy,0
@@ -919,7 +919,7 @@ id,data,label
 56730,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Julia,0
 56731,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Alibi,0
 56732,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Lunarità,0
-56733,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  Marcie,1
+56733,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  Marcie,0
 56734,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Machi  <trackName>  Machi,0
 56735,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Machi  <trackName>  Machi,0
 56736,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  River,0
@@ -1060,7 +1060,7 @@ id,data,label
 56871,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  Low  <trackName>  Lies,0
 56872,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  BOY  <trackName>  Waitress,0
 56873,"<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Sabine Devieilhe, Marianne Crebassa, Les Siècles, François-Xavier Roth  <trackName>  Mozart: ""Popoli di Tessaglia... Io non chiedo, eterni Dei"", K. 316",0
-56874,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Charlotte Cardin  <trackName>  Phoenix,0
+56874,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Charlotte Cardin  <trackName>  Phoenix,1
 56875,"<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  88rising, Rich Brian, Yung Bans, Yung Pinch, Higher Brothers & Don Krez  <trackName>  Midsummer Madness (feat. Joji, Rich Brian, Higher Brothers & AUGUST 08)",0
 56876,"<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Michael Ball, Imelda Staunton, The 2012 London Cast of Sweeney Todd  <trackName>  The Frogs:  Prologos: Invocation and Instructions to the Audience",0
 56877,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  BDC  <trackName>  DUMP,0
@@ -1069,7 +1069,7 @@ id,data,label
 56880,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  RA  <trackName>  The City,0
 56881,"<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  Caracol Televisión, Marcos Carreño ""Kiño"" , Guita & Juan C. Triana  <trackName>  Cachaco",0
 56882,<entry1>  Charlotte Cardin - Réédition album Phoenix - BDC - 2k€ - 121121 - Trafic  <entry2> <artistName>  BDC  <trackName>  CHEMICAL,0
-56883,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  Gambi  <trackName>  Khedma,0
+56883,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  Gambi  <trackName>  Khedma,1
 56884,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  RA  <trackName>  Vega,0
 56885,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  AFI  <trackName>  3 1/2,0
 56886,<entry1>  GAMBI // BDC - pub Khedma - 2K€ - 12/11 - Trafic  <entry2> <artistName>  BDC  <trackName>  Fine,0
@@ -1359,7 +1359,7 @@ id,data,label
 57170,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [FB] [United States]  <entry2> <artistName>  Artes  <trackName>  3000,0
 57171,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [FB] [United States]  <entry2> <artistName>  daine  <trackName>  SALT,0
 57172,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [FB] [United States]  <entry2> <artistName>  Ace  <trackName>  Sail On My Brother,0
-57173,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,0
+57173,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  brother sundance  <trackName>  Rat Race,1
 57174,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  Sound  <trackName>  Statues,0
 57175,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  Unité  <trackName>  Unité,0
 57176,<entry1>  WrRE - brother sundance - Rat Race EP - P1 - R - 0062L00000VIg1DQAT [IG/IGS] [United States]  <entry2> <artistName>  War  <trackName>  War,0
@@ -1699,7 +1699,7 @@ id,data,label
 57510,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Story Ad_clicks  <entry2> <artistName>  KSI  <trackName>  RAH,0
 57511,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Story Ad_clicks  <entry2> <artistName>  Sista  <trackName>  WFRO,0
 57512,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Story Ad_clicks  <entry2> <artistName>  KSI  <trackName>  idk,0
-57513,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,0
+57513,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Wake Me Up,1
 57514,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Foals  <trackName>  Inhaler,0
 57515,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Trace  <trackName>  Save Me,0
 57516,<entry1>  FOALS - Wake Me Up (Track)_Instagram_Feed Ad_clicks  <entry2> <artistName>  Inxs  <trackName>  Kick,0
@@ -1729,7 +1729,7 @@ id,data,label
 57540,<entry1>  NLE Choppa - Jumpin_Instagram_Story Ad_clicks  <entry2> <artistName>  KSI  <trackName>  RAH,0
 57541,<entry1>  NLE Choppa - Jumpin_Instagram_Story Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jiggin,0
 57542,<entry1>  NLE Choppa - Jumpin_Instagram_Story Ad_clicks  <entry2> <artistName>  KSI  <trackName>  Millions,0
-57543,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jumpin,0
+57543,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Jumpin,1
 57544,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  INXS  <trackName>  Jumping,0
 57545,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  NLE Choppa  <trackName>  Intro,0
 57546,<entry1>  NLE Choppa - Jumpin_Instagram_Feed Ad_clicks  <entry2> <artistName>  ABRAM  <trackName>  Mine,0
@@ -2215,7 +2215,7 @@ id,data,label
 58026,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Sista  <trackName>  Intro,0
 58027,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Tamas  <trackName>  Intro,0
 58028,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Haris  <trackName>  Intro,0
-58029,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  A New York Christmas '21,1
+58029,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  A New York Christmas '21,0
 58030,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  Save Some Christmas For Me,0
 58031,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  Disease,0
 58032,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  NLYTM,0
@@ -2322,7 +2322,7 @@ id,data,label
 58133,<entry1>  WrRE - IV4 - Stroke - P1 - R - 0062L00000WC8uqQAD [United States]  <entry2> <artistName>  Tyte  <trackName>  Hit,0
 58134,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Nue  <trackName>  Chances,0
 58135,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro TDH  <trackName>  Nueve (Intro),1
-58136,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro Tdh  <trackName>  Nueve (Intro),0
+58136,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro Tdh  <trackName>  Nueve (Intro),1
 58137,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro Tdh  <trackName>  Ámate,0
 58138,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Micro TDH  <trackName>  Ámate,0
 58139,<entry1>  N006371 - Micro TDH - Nueve - Maintenance  <entry2> <artistName>  Nue  <trackName>  rattlesnake,0
@@ -3315,7 +3315,7 @@ id,data,label
 59126,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  RSO  <trackName>  Rise,0
 59127,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  JOYRYDE  <trackName>  Tour 2012,0
 59128,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  210  <trackName>  Prom,0
-59129,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride (U.S. Remix),0
+59129,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joyride (U.S. Remix),1
 59130,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Joy Of A Toy,0
 59131,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Dream on,0
 59132,<entry1>  Roxette - Joyride - PO - NOV 2021  <entry2> <artistName>  Roxette  <trackName>  Voices,0

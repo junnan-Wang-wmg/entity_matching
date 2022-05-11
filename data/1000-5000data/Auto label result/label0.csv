@@ -59,6 +59,7 @@ index,entry,combineScore,trueLabel
 68.0,<entry1>  [Animated Artwork] Atln - Charlotte Cardin - Phoenix - P1 - R - 0062L00000VI3m4QAD  <entry2> <artistName>  Charlotte Cardin  <trackName>  Scorpio Season,0.616,0.0
 71.0,"<entry1>  WrIe - Silk Sonic - Silk Sonic – An Evening with Silk Sonic (Album) - P1 - R - 0062L00000WCVqnQAH [Ireland]  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.382,1.0
 74.0,"<entry1>  Atln - Silk Sonic - An Evening With Silk Sonic - P1 - R - 0062L00000WCc1fQAD [USA]  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.39399999999999996,0.0
+75.0,<entry1>  Atln - Jasmine Thompson - Love Is Just A Word ft. Calum Scott - P1 - R - 0062L00000WCTxSQAX  <entry2> <artistName>  Jasmine Thompson and Calum Scott  <trackName>  love is just a word,0.864,1.0
 76.0,<entry1>  WrCa - Amaal - Milly - P1 - R - 0062L00000WCE2ZQAX (Selfish Official Music Video) [Canada]  <entry2> <artistName>  Amaal  <trackName>  Heaven,0.5980000000000001,0.0
 82.0,<entry1>  WrRE - David Sabastian - Sista [EP] - P1 - R - 0062L00000WCSR5QAP [IG] [USA]  <entry2> <artistName>  David Sabastian  <trackName>  Bad Bih Holiday,0.5980000000000001,0.0
 83.0,"<entry1>  [Phase 1] [IG/IGS Silk Sonic's page] Atln - Silk Sonic - An Evening With Silk Sonic - P1 - R - 0062L00000WCc1fQAD [USA] (IG/IGS SS)  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.382,0.0
@@ -67,6 +68,7 @@ index,entry,combineScore,trueLabel
 96.0,<entry1>  Warner Music Ireland: Rod Stewart - The Tears of Hercules  <entry2> <artistName>  Rod Stewart  <trackName>  Hold On,0.658,0.0
 98.0,"<entry1>  [Phase 1] [IGR Silk Sonic's page] Atln - Silk Sonic - An Evening With Silk Sonic - P1 - R - 0062L00000WCc1fQAD [USA] - IGR  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.374,0.0
 99.0,"<entry1>  WrIe - Silk Sonic - Silk Sonic – An Evening with Silk Sonic (Album) - P1 - R - 0062L00000WCVqnQAH  [Ireland]  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.382,0.0
+100.0,<entry1>  Atln - Jasmine Thompson - Love Is Just A Word ft. Calum Scott - P1 - R - 0062L00000WCTxSQAX [United States]  <entry2> <artistName>  Jasmine Thompson and Calum Scott  <trackName>  love is just a word,0.864,1.0
 101.0,<entry1>  [FB/IG] [Phase 2] Atln - Charlotte Cardin - Phoenix - P1 - R - 0062L00000VI3m4QAD  <entry2> <artistName>  Charlotte Cardin  <trackName>  Scorpio Season,0.616,0.0
 102.0,<entry1>  Rhno - Wale - Ambition [10th Anniversary] - P1 - R - 0062L00000WCtZlQAL [United States]  <entry2> <artistName>  Wale  <trackName>  Lotus Flower Bomb,0.5740000000000001,0.0
 103.0,"<entry1>  [Phase 1] [FB Bruno Mars' page] Atln - Silk Sonic - An Evening With Silk Sonic - P1 - R - 0062L00000WCc1fQAD [USA] - Bruno FB  <entry2> <artistName>  Bruno Mars, Anderson .Paak, Silk Sonic  <trackName>  Smoking Out The Window",0.51,0.0
@@ -519,7 +521,7 @@ index,entry,combineScore,trueLabel
 609.0,<entry1>  Ilta - Taivas maan päällä - teaser  <entry2> <artistName>  Kasper  <trackName>  Taas tuntemaan,0.652,0.0
 611.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  RA  <trackName>  Bolo,0.85,0.0
 612.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  Marea  <trackName>  Marea,0.0,0.0
-613.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  A36  <trackName>  AREA 36 Trailer,0.76,1.0
+613.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  A36  <trackName>  AREA 36 Trailer,0.76,0.0
 614.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  Rai  <trackName>  Pablo,0.76,0.0
 615.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  13 Block  <trackName>  Sale,0.75,0.0
 616.0,<entry1>  A36 - AREA 36 / BLOCK - Trailer - Boost A36  <entry2> <artistName>  13 Block  <trackName>  Triple S,0.75,0.0
@@ -546,6 +548,7 @@ index,entry,combineScore,trueLabel
 637.0,<entry1>  RO - 9292 - Automated Ads Playlist_Generator  <entry2> <artistName>  Kreator  <trackName>  Trauma,0.584,0.0
 638.0,<entry1>  RO - 9292 - Automated Ads Playlist_Generator  <entry2> <artistName>  AUTOMAT  <trackName>  Pandora,0.676,0.0
 639.0,<entry1>  RO - 9292 - Automated Ads Playlist_Generator  <entry2> <artistName>  TOMA  <trackName>  Ça va passer,0.652,0.0
+640.0,<entry1>  【あいみょん／ハート】_【tiktok】_【20211112-1130】  <entry2> <artistName>  Titiyo  <trackName>  13,0.868,0.0
 641.0,<entry1>  【あいみょん／ハート】_【tiktok】_【20211112-1130】  <entry2> <artistName>  Miko  <trackName>  Diko,0.75,0.0
 642.0,<entry1>  【あいみょん／ハート】_【tiktok】_【20211112-1130】  <entry2> <artistName>  IDK  <trackName>  Keto,0.718,0.0
 643.0,<entry1>  【あいみょん／ハート】_【tiktok】_【20211112-1130】  <entry2> <artistName>  104  <trackName>  INTRO,0.492,0.0
@@ -799,7 +802,7 @@ index,entry,combineScore,trueLabel
 917.0,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Julia,0.54,0.0
 918.0,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Alibi,0.66,0.0
 919.0,<entry1>  PLUMITAS | ALBUM  <entry2> <artistName>  Mina  <trackName>  Lunarità,0.6000000000000001,0.0
-920.0,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  Marcie,0.802,1.0
+920.0,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  Marcie,0.802,0.0
 921.0,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Machi  <trackName>  Machi,0.0,0.0
 922.0,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Machi  <trackName>  Machi,0.0,0.0
 923.0,<entry1>  Rhno - Joni Mitchell - Archives Vol. 2 - P1 - M - 0062L00000WCD9ZQAX - [USA]  <entry2> <artistName>  Joni Mitchell  <trackName>  River,0.76,0.0
@@ -920,6 +923,7 @@ index,entry,combineScore,trueLabel
 1047.0,<entry1>  Kiddo CSA Organic IG Content Boosting - November 2021 - R 2000 - 12 Nov - 18 Nov  <entry2> <artistName>  KSI  <trackName>  EA Logic,0.5680000000000001,0.0
 1048.0,<entry1>  Kiddo CSA Organic IG Content Boosting - November 2021 - R 2000 - 12 Nov - 18 Nov  <entry2> <artistName>  Boosin  <trackName>  Nomer Odin,0.692,0.0
 1049.0,<entry1>  Kiddo CSA Organic IG Content Boosting - November 2021 - R 2000 - 12 Nov - 18 Nov  <entry2> <artistName>  KSI  <trackName>  BOXING MY BRO,0.64,0.0
+1051.0,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  JLS  <trackName>  Glow,0.868,0.0
 1052.0,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  Low  <trackName>  $20,0.85,0.0
 1053.0,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  BOY  <trackName>  Jésus,0.76,0.0
 1054.0,<entry1>  WMA / Jess Mauboy Glow / 2620 / PO67889  <entry2> <artistName>  BOY  <trackName>  Romanesse,0.664,0.0
@@ -1450,6 +1454,7 @@ index,entry,combineScore,trueLabel
 1617.0,<entry1>  Silk Sonic Album_Instagram_Feed Ad_awareness  <entry2> <artistName>  WAR  <trackName>  Angel,0.64,0.0
 1618.0,<entry1>  Silk Sonic Album_Instagram_Feed Ad_awareness  <entry2> <artistName>  KSI  <trackName>  Madness,0.694,0.0
 1619.0,<entry1>  Silk Sonic Album_Instagram_Feed Ad_awareness  <entry2> <artistName>  Sia  <trackName>  Grenades,0.67,0.0
+1620.0,<entry1>  Silk Sonic Album_Facebook_Feed Ad_awareness  <entry2> <artistName>  KSI  <trackName>  ok,0.868,0.0
 1621.0,<entry1>  Silk Sonic Album_Facebook_Feed Ad_awareness  <entry2> <artistName>  War  <trackName>  Happiness,0.736,0.0
 1622.0,<entry1>  Silk Sonic Album_Facebook_Feed Ad_awareness  <entry2> <artistName>  WAR  <trackName>  Happiness,0.736,0.0
 1623.0,<entry1>  Silk Sonic Album_Facebook_Feed Ad_awareness  <entry2> <artistName>  KSI  <trackName>  Ares,0.718,0.0
@@ -1709,6 +1714,7 @@ index,entry,combineScore,trueLabel
 1897.0,<entry1>  Ilta - Taivas maan päällä - FB  <entry2> <artistName>  Mala  <trackName>  Mulata,0.6000000000000001,0.0
 1898.0,<entry1>  Ilta - Taivas maan päällä - FB  <entry2> <artistName>  ISMA  <trackName>  Orbita,0.6000000000000001,0.0
 1899.0,<entry1>  Ilta - Taivas maan päällä - FB  <entry2> <artistName>  Ilta  <trackName>  River Lea,0.664,0.0
+1902.0,<entry1>  Silk Sonic - Smoking Out The Window - IGS  <entry2> <artistName>  KSI  <trackName>  ok,0.868,0.0
 1903.0,<entry1>  Silk Sonic - Smoking Out The Window - IGS  <entry2> <artistName>  SIL  <trackName>  Dirty Windows,0.772,0.0
 1904.0,<entry1>  Silk Sonic - Smoking Out The Window - IGS  <entry2> <artistName>  Sil  <trackName>  Dirty Windows,0.772,0.0
 1905.0,<entry1>  Silk Sonic - Smoking Out The Window - IGS  <entry2> <artistName>  TGS  <trackName>  The Swindle,0.706,0.0
@@ -2006,7 +2012,7 @@ index,entry,combineScore,trueLabel
 2213.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Sista  <trackName>  Intro,0.77,0.0
 2214.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Tamas  <trackName>  Intro,0.69,0.0
 2215.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Haris  <trackName>  Intro,0.77,0.0
-2216.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  A New York Christmas '21,0.724,1.0
+2216.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  A New York Christmas '21,0.724,0.0
 2217.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  Save Some Christmas For Me,0.748,0.0
 2218.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  Disease,0.742,0.0
 2219.0,<entry1>  2510| WMA ADS | MA | ROB THOMAS | CHRISTMAS | P067908 | INT  <entry2> <artistName>  Rob Thomas  <trackName>  NLYTM,0.64,0.0
@@ -2086,6 +2092,7 @@ index,entry,combineScore,trueLabel
 2302.0,<entry1>  [IG/IGS] WrRE - Warren Zeiders - Artist Development - P3 - R - 0062L00000WC9ZiQAL  <entry2> <artistName>  Warren Zeiders  <trackName>  Ride the Lightning,0.5980000000000001,0.0
 2305.0,<entry1>  Atln - Charlotte Cardin - Phoenix - P1 - R - 0062L00000VI3m4QAD  <entry2> <artistName>  Charlotte Cardin  <trackName>  Scorpio Season,0.5740000000000001,0.0
 2307.0,<entry1>  BgBt - Robin Schulz - Young Right Now (feat. Dennis Lloyd) - P1 - R - 0062L00000WCn2JQAT [USA]  <entry2> <artistName>  Robin Schulz & Dennis Lloyd  <trackName>  Young Right Now,0.852,1.0
+2309.0,<entry1>  Atln - Jasmine Thompson - Love Is Just A Word ft. Calum Scott - P1 - R - 0062L00000WCTxSQAX  <entry2> <artistName>  Jasmine Thompson and Calum Scott  <trackName>  love is just a word,0.864,1.0
 2312.0,<entry1>  WrRE - IV4 - Stroke - P1 - R - 0062L00000WC8uqQAD [United States]  <entry2> <artistName>  Unité  <trackName>  Unité,0.0,0.0
 2313.0,<entry1>  WrRE - IV4 - Stroke - P1 - R - 0062L00000WC8uqQAD [United States]  <entry2> <artistName>  WAR  <trackName>  War,0.0,0.0
 2314.0,<entry1>  WrRE - IV4 - Stroke - P1 - R - 0062L00000WC8uqQAD [United States]  <entry2> <artistName>  War  <trackName>  War,0.0,0.0
@@ -2686,6 +2693,7 @@ index,entry,combineScore,trueLabel
 2958.0,<entry1>  Atln - Saweetie - Get It Girl - P1 - R - 0062L00000WCphHQAT [USA]  <entry2> <artistName>  ATB  <trackName>  Time,0.718,0.0
 2959.0,<entry1>  Atln - Saweetie - Get It Girl - P1 - R - 0062L00000WCphHQAT [USA]  <entry2> <artistName>  Weta  <trackName>  Let It Go,0.768,0.0
 2960.0,<entry1>  Atln - Saweetie - Get It Girl - P1 - R - 0062L00000WCphHQAT [USA]  <entry2> <artistName>  Weta  <trackName>  Time,0.75,0.0
+2961.0,<entry1>  PLUMITAS | LIKE  <entry2> <artistName>  Plumas  <trackName>  Like,0.868,1.0
 2962.0,<entry1>  PLUMITAS | LIKE  <entry2> <artistName>  Lumian  <trackName>  Alive,0.692,0.0
 2963.0,<entry1>  PLUMITAS | LIKE  <entry2> <artistName>  MIKE  <trackName>  Like Mask,0.672,0.0
 2964.0,<entry1>  PLUMITAS | LIKE  <entry2> <artistName>  KEN  <trackName>  Mine,0.6200000000000001,0.0
