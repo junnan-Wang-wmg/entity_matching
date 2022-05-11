@@ -49,25 +49,27 @@ would be matched(1) and unmatched(0). The final output is an CSV file containing
 
 Process:
 1. Coding: (open command prompt in "app" directory)
-```angular2html
-    python dataConverter.py -t "../data/extract.txt"  -s "../data/matching_data.csv" --startIndex 0 --endIndex 1000
+```shell script
+python dataConverter.py -t "../data/extract.txt"  -s "../data/matching_data.csv" --startIndex 0 --endIndex 1000
 ```
 The output file is the extracted data containing the campaign name, artist name, and track name in each row. 
 The output file is saved in "data" directory.
 
 2. Manual annotation:
+    Currently, the pipeline is setup in a way that we subset the entire data. However, pre-process can be taken separately
+    to avoid annotating entities with either a too high or low score.
 
     The next step is to import the data into Doccano and perform manual annotation. The manual annotation result is a 
 csv file containing combined entry (campaign, artist, and track names) and the annotated label (1 for matched, 
 0 for unmatched)
     To run Doccano, two command prompts should be open:
 Command line setup1:
-```angular2html
-    doccano webserver --port 8000
+```shell script
+doccano webserver --port 8000
 ```
 Command line setup2:
-```angular2html
-   doccano task
+```shell script
+doccano task
 ```
    For more details, please check the "Doccano Instruction.md" file. Note that the label for matched is set to 1, and 
    for unmatched is set to 0. After finishing the manual annotation, output the result as csv file and transfer to the 
@@ -85,8 +87,8 @@ two inputs, the score will be 100. In addition, the score is not case-sensitive.
 
 Process:
 
-```angular2html
-   python fuzzyWuzzy.py --file "../data/matching_data.csv" --output "../data/fuzzyScores.txt" --startIndex 0 --endIndex 1000 --preprocess
+```shell script
+python fuzzyWuzzy.py --file "../data/matching_data.csv" --output "../data/fuzzyScores.txt" --startIndex 0 --endIndex 1000 --preprocess
 ```
 The code above set preprocessing to be true. If you do not want preprocessing, simply change "--process" 
 to "--no-process". The output file contains the index, artistScore, and trackScore. The file is saved to 
@@ -104,8 +106,8 @@ weight hyperpameter. The ROC and PRC analysis are performed in here.
 
 Process:
 
-```angular2html
-   python evalFunctionAndAUC.py -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
+```shell script
+python evalFunctionAndAUC.py -f "../data/fuzzyScores_0-1000.txt"   -m "../data/0-1000data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
 ```
 The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
 The filenames should be adjusted. Then weight percentages that are evaluated should be attached after "-p".
@@ -125,8 +127,8 @@ The final step is to check the separation of the data based on the thresholds th
 
 Process:
 
-```angular2html
-   python compareInput.py -f "../data/fuzzyScores_0-1000.txt" -m "../data/1000annotate.csv" -p 0.5 -rt 0.97 -pt 0.9 -save "temp"
+```shell script
+python compareInput.py -f "../data/fuzzyScores_0-1000.txt" -m "../data/1000annotate.csv" -p 0.5 -rt 0.97 -pt 0.9 -save "temp"
 ```
 The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
 The filenames should be adjusted. The optimal weight percentage is set to "-p 0.5". This could be adjusted based on the previous result. The threshold 
