@@ -20,7 +20,7 @@ colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
 # import a txt file. Here the goal is to import that fuzzyScore file
 def importScore(filename):
-    f = open(filename, "r")
+    f = open(filename, "r", encoding="utf-8")
     lines = f.readlines()
     lines = lines[1:]  # skip the title line
     return lines

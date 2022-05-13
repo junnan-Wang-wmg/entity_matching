@@ -85,7 +85,8 @@ def threshold(fuzzyScoreFile, manualAnnotateFile="1000annotate.csv",
         combineScore = eVal.evalFunction(artistScore, trackScore, percentEval)
         pandaRow = pd.DataFrame({"index": [i], "entry": [entries[i]],
                                  "combineScore": [combineScore], "trueLabel": [true[i]]})
-        table = table.append(pandaRow)
+        # table = table.append(pandaRow)
+        table = pd.concat([table, pandaRow])
 
         score.append(combineScore)
 
@@ -121,22 +122,26 @@ def threshold(fuzzyScoreFile, manualAnnotateFile="1000annotate.csv",
 
     for i in range(len(table)):
         score = table.iloc[i][2]
+        row = table.iloc[i]
+        pdNewRow = pd.DataFrame({"index": [row[0]], "entry": [row[1]],
+                                 "combineScore": [row[2]], "trueLabel": [row[3]]})
         if score <= thr1:
-            table1 = table1.append(table.iloc[i])
+            table1 = pd.concat([table1, pdNewRow])
+
             trueLabel = table.iloc[i][3]
             if trueLabel == 0:
                 count1 += 1
             else:
-                table4 = table4.append(table.iloc[i])  # summarize incorrect labels in a separate table
+                table4 = pd.concat([table4, pdNewRow])
         elif score >= thr2:
-            table3 = table3.append(table.iloc[i])
+            table3 = pd.concat([table3, pdNewRow])
             trueLabel = table.iloc[i][3]
             if trueLabel == 1:
                 count3 += 1
             else:
-                table5 = table5.append(table.iloc[i])  # summarize incorrect labels in a separate table
+                table5 = pd.concat([table5, pdNewRow])
         else:
-            table2 = table2.append(table.iloc[i])
+            table2 = pd.concat([table2, pdNewRow])
 
 
     numLabel0 = len(table1)

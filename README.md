@@ -107,7 +107,7 @@ weight hyperpameter. The ROC and PRC analysis are performed in here.
 Process:
 
 ```shell script
-python evalFunctionAndAUC.py -f "../data/fuzzyScores_0-1000.txt"   -m "../data/0-1000data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
+python evalFunctionAndAUC.py -f "../data/fuzzyScores_0-1000.txt"   -m "../data/1000annotate.csv" -p 0.2 0.4 0.5 0.6 0.8 -save "temp"
 ```
 The default coding above obtain the fuzzy score and manual annotation result from step2 and step 1, respectively. 
 The filenames should be adjusted. Then weight percentages that are evaluated should be attached after "-p".

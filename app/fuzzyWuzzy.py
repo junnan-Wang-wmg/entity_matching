@@ -41,7 +41,8 @@ def fuzzyScore(filename="matching_data.csv", output="fuzzyScores.txt", startInde
     columnNames = ["CAMPAIGN_NAME", "ASG_GROUPING_TITLE", "ARTIST_DISPLAY_NAME", "index"]
     extractedColumns = df[columnNames]
 
-    newTable1Title = {"index": [], "artistScore": [], "trackScore": []}
+    # newTable1Title = {"index": [], "artistScore": [], "trackScore": []}
+    newTable1Title = {"index": [], "artistScore": [], "trackScore": [], "entry": []}
     newTable1 = pd.DataFrame(newTable1Title)
 
     endIndex = min(endIndex, len(extractedColumns))
@@ -54,7 +55,9 @@ def fuzzyScore(filename="matching_data.csv", output="fuzzyScores.txt", startInde
 
         if isPreprocess:
             artistName = re.sub(r"\([^()]*\)", "", artistName)
-            trackName = re.sub(r"\([^()]*\)", "", trackName)
+            artistName = re.sub(r"\[[^()]*\]", "", artistName)
+            trackName = re.sub(r"\([^()]*\)", "", trackName)  # remove content in ()
+            trackName = re.sub(r"\[[^()]*\]", "", trackName)  # remove content in []
         artistScore = fuzz.partial_ratio(campaignName, artistName)
         trackScore = fuzz.partial_ratio(campaignName, trackName)
         if artistName == trackName:
@@ -62,9 +65,12 @@ def fuzzyScore(filename="matching_data.csv", output="fuzzyScores.txt", startInde
 
         index = row[3]  # index in the matching_data.csv
 
+        # pandaRow1 = pd.DataFrame({"index": [index], "artistScore": [artistScore],
+        #                           "trackScore": [trackScore]})
         pandaRow1 = pd.DataFrame({"index": [index], "artistScore": [artistScore],
-                                  "trackScore": [trackScore]})
-        newTable1 = newTable1.append(pandaRow1)
+                                  "trackScore": [trackScore], "entry": [campaignName]})
+        # newTable1 = newTable1.append(pandaRow1)
+        newTable1 = pd.concat([newTable1, pandaRow1])
 
     # output file
     outputFilePath = output.replace(".txt", "_") + str(startIndex) + "-" + str(endIndex) + ".txt"
